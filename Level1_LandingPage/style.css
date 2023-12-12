@@ -95,6 +95,9 @@ body, h1, h2, p, ul, li {
     margin-left: 10px;
     align-items: center;
 }
+#srch{
+    margin-left: 15%;
+}
 .area {
     position: relative;
 }
