@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(2, 2, 59);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(7, 47, 103);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+
+}
+.left{
+    font-size: 1.5rem;
+
+}
+.firstsection{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 100px 0;    
+}
+.firstsection > div{
+    width: 40%;
+    
+}
+.leftsection{
+    font-size: 3rem;
+    margin: 150px 0 ;
+    margin-left: 100px;
+}
+.rightsection img{
+    width: 80%;
+    
+    
+    
+}
+.purple{
+color: rgb(154, 73, 229);    
+}
