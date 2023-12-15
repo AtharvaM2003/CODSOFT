@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    -webkit-appearance: none;
+  }
+  
+  ::placeholder {
+    color: rgb(221, 221, 221);
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+    transition: 0.8s all;
+  }
+  
+  h1 {
+    margin-bottom: 1.5%;
+    color: #fff;
+    font-weight: normal;
+    align-items: center;
+  }
+  
+  .container {
+    width: 359px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(28, 36, 82);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 80%;
+   
+  }
+  
+  .top-buttons {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  input {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(34, 101, 156);
+    border: 1px solid white;
+    outline: none;
+    border-radius: 15px;
+    margin: 0.3em;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(47, 51, 50);
+    width: 222.5px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(101, 101, 101);
+    color: #fff;
+  }
+  
+  #clear-button {
+    color: #fff;
+    background-color: rgb(255, 42, 42);
+  }
+  
+ 
+  
